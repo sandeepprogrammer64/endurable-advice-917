@@ -1,6 +1,8 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
+import Download from "./Components/Download"
+import SearchBar from './Components/SearchBar';
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
      
 
       <Navbar />
+      <SearchBar />
     </div>
   );
 }

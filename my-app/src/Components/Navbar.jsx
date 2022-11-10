@@ -1,6 +1,8 @@
 
-import { Box, Button, Flex, Image, Input, Select, Stack, Container, Skeleton } from "@chakra-ui/react"
+import { Box, Button, Flex, Image, Input, Select, Stack, Container, Skeleton, Spacer, ButtonGroup, Text, Divider } from "@chakra-ui/react"
 import { useState } from "react";
+import { Link, Navigate } from "react-router-dom";
+import Download from "./Download";
 
 function Navbar()
 {
@@ -18,31 +20,47 @@ function Navbar()
     //     )
     // }
    
+   
 
    
     return (
 
        
 
-        <Container >
-        <Flex >
-        <Box  display="flex">
-           <Image  src='https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0'  alt='PharmEasy' />
-          Delivery To
-         <Select placeholder="Select Pincode">
-            
-         </Select>
+        
+    
+        <Box display="flex" gap="20px" bg="gray.50" >
+           <Image marginLeft="22px"  p="10px" src='https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0'  alt='PharmEasy' />
+         
+        
+       
+ 
+        <Spacer />
+        <ButtonGroup gap='2' p="10px">
+            <Link to="/download">
+                <Button colorScheme='teal'>Download App</Button>
+            </Link>
+            <Button colorScheme='teal'>Hello Log in</Button>
+        </ButtonGroup>
 
-         <Button>Download App</Button>
-           
-          
-           
+        
+
+       
+        
+       
+       
+         
+         
+        
            
         </Box>
 
-     </Flex>
+        
+        
+    
+   
 
-     </Container>
+     
 
         
     
