@@ -1,5 +1,5 @@
 import { Input, Text, Button, Flex, Image, Box} from "@chakra-ui/react";
-//import { Icon, createIcon } from '@chakra-ui/icons';
+import { Icon, PhoneIcon, createIcon } from '@chakra-ui/icons';
 
 
 function SearchBar()
@@ -66,7 +66,11 @@ function SearchBar()
         <Flex marginTop="50px" gap="20px" marginLeft="50px">
             <Image w="530px" h="230px" borderRadius="10px" src="https://cdn01.pharmeasy.in/dam/banner/banner/2f0bb7a7751-STAR25.jpg" />
             <Image w="530px" h="230px" borderRadius="10px" src="https://cdn01.pharmeasy.in/dam/banner/banner/b3a4bdb683b-1.jpg" />
+            <PhoneIcon size="lg"/>
         </Flex>
+
+        
+        
         </div>
 
         
