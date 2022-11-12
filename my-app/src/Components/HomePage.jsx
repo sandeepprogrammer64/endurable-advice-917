@@ -1,5 +1,5 @@
-import { Input, Text, Button, Flex, Image, Box} from "@chakra-ui/react";
-import { Icon, PhoneIcon, createIcon } from '@chakra-ui/icons';
+import { Input, Text, Button, Flex, Image, Box, Divider, Center, Container, Heading} from "@chakra-ui/react";
+import { Icon, PhoneIcon, createIcon, LockIcon } from '@chakra-ui/icons';
 
 
 function SearchBar()
@@ -9,12 +9,12 @@ function SearchBar()
         <div>
             <Text fontSize='20px' color='bold'>What are You Looking For?</Text>
             
-            <Input w="60%" size="lg" marginTop="20px" borderRadius="30px"></Input>
+            <Input w="40%" size="lg" marginTop="20px" borderRadius="80px"></Input>
             <Button colorScheme="teal" marginLeft="-6%" borderRadius="25px">Search</Button>
             
             <Flex marginTop="50px" gap="60px" marginLeft="50px">
             <Box className="boxes" border="1px solid gray.200">
-                <Image src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0" h="81px" w="100px" />
+               <a href=""> <Image src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0" h="81px" w="100px" /></a>
                 <Text  marginTop="10px" fontWeight="bold">Medicine</Text>
                 <Text  color="tomato">UPTO 20% OFF</Text>
             </Box>
@@ -63,11 +63,37 @@ function SearchBar()
 
         </Flex>
 
+        
+
         <Flex marginTop="50px" gap="20px" marginLeft="50px">
             <Image w="530px" h="230px" borderRadius="10px" src="https://cdn01.pharmeasy.in/dam/banner/banner/2f0bb7a7751-STAR25.jpg" />
             <Image w="530px" h="230px" borderRadius="10px" src="https://cdn01.pharmeasy.in/dam/banner/banner/b3a4bdb683b-1.jpg" />
             <PhoneIcon size="lg"/>
         </Flex>
+
+        <Heading marginLeft="-900" marginTop="30px">Offers Just For You</Heading>
+        
+        <Flex marginTop="60px" marginLeft="50px" gap="20px">
+        <Box bg='gray.40' w='30%'  display="flex" border="1px solid ">
+           <a href=""><Image w="60px" h="60px" p="4px"  src="https://cms-contents.pharmeasy.in/offer/5de18709978-fbf_logo.jpg?dim=1440x0" /></a>
+           <Text w="69%" p="10px">Flat 25% off on First 3 medicine orders</Text>
+        </Box>
+
+        <Box bg='gray.40' w='30%'  display="flex" border="1px solid ">
+           <Image w="60px" h="60px" p="4px" src="https://cms-contents.pharmeasy.in/offer/5de18709978-fbf_logo.jpg?dim=1440x0" />
+           <Text w="69%" p="10px">Flat 25% off on First 3 medicine orders</Text>
+        </Box>
+
+      
+
+        <Box bg='blue.100' w='30%' border="1px  " borderRadius="10px">
+            <Container>
+            <LockIcon  />
+            </Container>
+            <Text color="blue.700">Login To View More Offers</Text>
+            </Box>
+        </Flex>
+       
 
         
         
