@@ -1,8 +1,8 @@
 import { Input, Text, Button, Flex, Image, Box, Divider, Center, Container, Heading} from "@chakra-ui/react";
-import { Icon, PhoneIcon, createIcon, LockIcon } from '@chakra-ui/icons';
+import { Icon, PhoneIcon, createIcon, LockIcon, AttachmentIcon } from '@chakra-ui/icons';
 
 
-function SearchBar()
+function HomePage()
 {
     return (
        
@@ -61,7 +61,7 @@ function SearchBar()
                 <Text color="tomato">UP TO 50% OFF</Text>
             </Box>
 
-        </Flex>
+            </Flex>
 
         
 
@@ -93,6 +93,42 @@ function SearchBar()
             <Text color="blue.700">Login To View More Offers</Text>
             </Box>
         </Flex>
+
+        <Heading marginLeft="-1000" marginTop="80px" >Payment Offers</Heading>
+
+
+        <Flex marginTop="50px" gap="20px" marginLeft="40px">
+            <Box w="425px" h="80px">
+               <Image src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0" />
+            </Box>
+
+            <Box w="425px" h="80px">
+               <Image src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0" />
+            </Box>
+
+            <Box w="425px" h="80px">
+               <Image src="https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0" />
+            </Box>
+        </Flex>
+
+
+        <Flex>
+            <Box border="1px solid" display="flex">
+                 <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZMAyZTZZq1E_dA33Y0gEM37_X_REXEXLWbyDRdgLlVFK1UnMi8y1s2sKQst5gNhNjIw&usqp=CAU" />
+                 <Box>
+                 <Text p="20px" fontSize="18px" color="#30363C">Order With Prescription</Text>
+                 <p>Upload prescription and we will deliver your medicines</p>
+                 <AttachmentIcon /><b>Upload</b> 
+                 </Box>
+                 
+
+                 
+            </Box>
+            <Box>
+                2
+            </Box>
+
+        </Flex>
        
 
         
@@ -104,4 +140,4 @@ function SearchBar()
        
     )
 }
-export default SearchBar;
+export default HomePage;
