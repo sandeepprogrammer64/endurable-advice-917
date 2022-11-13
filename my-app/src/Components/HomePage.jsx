@@ -10,7 +10,7 @@ function HomePage()
             <Text fontSize='20px' color='bold'>What are You Looking For?</Text>
             
             <Input w="40%" size="lg" marginTop="20px" borderRadius="80px"></Input>
-            <Button colorScheme="teal" marginLeft="-6%" borderRadius="25px">Search</Button>
+            <Button colorScheme="teal" marginLeft="-6%" borderRadius="25px" marginBottom="5px">Search</Button>
             
             <Flex marginTop="50px" gap="60px" marginLeft="50px">
             <Box className="boxes" border="1px solid gray.200">
@@ -75,7 +75,7 @@ function HomePage()
         
         <Flex marginTop="60px" marginLeft="50px" gap="20px">
         <Box bg='gray.40' w='30%'  display="flex" border="1px solid ">
-           <a href=""><Image w="60px" h="60px" p="4px"  src="https://cms-contents.pharmeasy.in/offer/5de18709978-fbf_logo.jpg?dim=1440x0" /></a>
+           <Image w="60px" h="60px" p="4px"  src="https://cms-contents.pharmeasy.in/offer/5de18709978-fbf_logo.jpg?dim=1440x0" />
            <Text w="69%" p="10px">Flat 25% off on First 3 medicine orders</Text>
         </Box>
 
@@ -113,20 +113,19 @@ function HomePage()
 
 
         <Flex>
-            <Box border="1px solid" display="flex">
-                 <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZMAyZTZZq1E_dA33Y0gEM37_X_REXEXLWbyDRdgLlVFK1UnMi8y1s2sKQst5gNhNjIw&usqp=CAU" />
+            <Box border="1px solid" display="flex" marginTop="60px" w="560px" marginLeft="40px" h="188px" bg="blue.100" borderRadius="10px">
+                 <Image w="102px" h="96px" p="10px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZMAyZTZZq1E_dA33Y0gEM37_X_REXEXLWbyDRdgLlVFK1UnMi8y1s2sKQst5gNhNjIw&usqp=CAU" />
                  <Box>
-                 <Text p="20px" fontSize="18px" color="#30363C">Order With Prescription</Text>
-                 <p>Upload prescription and we will deliver your medicines</p>
-                 <AttachmentIcon /><b>Upload</b> 
+                 <b><Text p="20px" fontSize="18px"  >Order With Prescription</Text></b>
+                 <p style={{color:"#4f585E", fontSize:"14px", padding:"10px"}}>Upload prescription and we will deliver your medicines</p>
+                 <Button colorScheme="teal" padding="20px" gap="5px"><AttachmentIcon /><b style={{color:"white"}}>Upload</b> </Button>
                  </Box>
-                 
-
-                 
-            </Box>
-            <Box>
-                2
-            </Box>
+             </Box>
+             <Box w="725px" border="1px solid" h="184px"  marginTop="60px">
+                
+                
+                
+             </Box>    
 
         </Flex>
        
