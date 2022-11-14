@@ -121,9 +121,9 @@ function HomePage()
                  <Button colorScheme="teal" padding="20px" gap="5px"><AttachmentIcon /><b style={{color:"white"}}>Upload</b> </Button>
                  </Box>
              </Box>
-             <Box w="725px" border="1px solid" h="184px"  marginTop="60px">
+             <Box w="725px" border="1px solid" h="184px"  marginTop="50px">
                 
-                
+                <Heading></Heading>
                 
              </Box>    
 
