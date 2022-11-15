@@ -123,7 +123,7 @@ function HomePage()
              </Box>
              <Box w="725px" border="1px solid" h="184px"  marginTop="50px">
                 
-                <Heading></Heading>
+                <Heading>What is this</Heading>
                 
              </Box>    
 
