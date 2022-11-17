@@ -123,7 +123,9 @@ function HomePage()
              </Box>
              <Box w="725px" border="1px solid" h="184px"  marginTop="50px">
                 
-                <Heading>What is this aur kab karega complete</Heading>
+                <Heading>What is this aur kab karega complete
+                    Dekh Bhai Karna Toh Hoga Complete
+                </Heading>
                 
              </Box>    
 
