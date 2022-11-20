@@ -125,7 +125,7 @@ function HomePage()
                 
                 <Heading>What is this aur kab karega complete
                     Dekh Bhai Karna Toh Hoga Complete
-                    Bhulna Mat Bhai Ha bhai kab Time Nikalega
+                    Bhulna Mat Bhai Ha bhai kab Time Nikalega. Yes The most awaited Project
                 </Heading>
                 
              </Box>    
