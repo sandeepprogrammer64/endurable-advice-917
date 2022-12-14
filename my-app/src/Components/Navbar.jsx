@@ -1,7 +1,7 @@
 
-import { Box, Button, Flex, Image, Skeleton, Spacer, ButtonGroup, Input } from "@chakra-ui/react";
-import { useState } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Box, Button,Image,  Spacer, ButtonGroup, Input } from "@chakra-ui/react";
+
+import { Link } from "react-router-dom";
 import { useDisclosure, useColorMode } from "@chakra-ui/react";
 import React from "react"
 import {

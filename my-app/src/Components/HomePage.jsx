@@ -1,5 +1,30 @@
-import { Input, Text, Button, Flex, Image, Box, Divider, Center, Container, Heading} from "@chakra-ui/react";
-import { Icon, PhoneIcon, createIcon, LockIcon, AttachmentIcon } from '@chakra-ui/icons';
+import { Input, Text, Button, Flex, Image, Box,  Container, Heading} from "@chakra-ui/react";
+import { PhoneIcon,LockIcon, AttachmentIcon } from '@chakra-ui/icons';
+import 'react-slideshow-image/dist/styles.css';
+import { Fade } from 'react-slideshow-image';
+import "../Styles/HomePage.css";
+
+
+const fadeImages = [
+    {
+      url: 'https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0',
+      url2: 'https://cdn01.pharmeasy.in/dam/banner/banner/f3c446e4108-AMAZON.jpg?dim=1440x0',
+      url3: 'https://cdn01.pharmeasy.in/dam/banner/banner/9466405c308-au.jpg?dim=1440x0',
+      caption: 'Slide 1'
+    },
+    {
+      url: 'https://cdn01.pharmeasy.in/dam/banner/banner/f3c446e4108-AMAZON.jpg?dim=1440x0',
+      url2: 'https://cdn01.pharmeasy.in/dam/banner/banner/9466405c308-au.jpg?dim=1440x0',
+      url3: 'https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0',
+      caption: 'Slide 2'
+    },
+    {
+      url: 'https://cdn01.pharmeasy.in/dam/banner/banner/9466405c308-au.jpg?dim=1440x0',
+      url2: 'https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0',
+      url3: 'https://cdn01.pharmeasy.in/dam/banner/banner/7297689b914-AIRTEL.jpg?dim=1440x0',
+      caption: 'Slide 3'
+    },
+  ];
 
 
 function HomePage()
@@ -14,7 +39,7 @@ function HomePage()
             
             <Flex marginTop="50px" gap="60px" marginLeft="50px">
             <Box className="boxes" border="1px solid gray.200">
-               <a href=""> <Image src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0" h="81px" w="100px" /></a>
+               <Image src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0" h="81px" w="100px" />
                 <Text  marginTop="10px" fontWeight="bold">Medicine</Text>
                 <Text  color="tomato">UPTO 20% OFF</Text>
             </Box>
@@ -97,19 +122,23 @@ function HomePage()
         <Heading marginLeft="-1000" marginTop="80px" >Payment Offers</Heading>
 
 
-        <Flex marginTop="50px" gap="20px" marginLeft="40px">
-            <Box w="425px" h="80px">
-               <Image src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0" />
-            </Box>
-
-            <Box w="425px" h="80px">
-               <Image src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0" />
-            </Box>
-
-            <Box w="425px" h="80px">
-               <Image src="https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0" />
-            </Box>
-        </Flex>
+        
+        <div className="slide-container">
+      <Fade>
+        {fadeImages.map((fadeImage, index) => (
+          <div className="each-fade" key={index}>
+            <div className="image-container">
+            <img src={fadeImage.url} alt={fadeImage.caption}/>
+              <img src={fadeImage.url2} alt={fadeImage.caption} />
+              <img src={fadeImage.url3} alt={fadeImage.caption} />
+            </div>
+            
+          </div>
+        ))}
+      </Fade>
+      </div>
+         
+        
 
 
         <Flex>

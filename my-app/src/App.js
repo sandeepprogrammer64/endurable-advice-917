@@ -1,18 +1,33 @@
+import "./App.css";
+import Navbar from "./Components/Navbar";
 
-import './App.css';
-import Navbar from './Components/Navbar';
-import Download from "./Components/Download"
-import HomePage from './Components/HomePage';
-import Footer from './Components/Footer';
+import HomePage from "./Components/HomePage";
+import Footer from "./Components/Footer";
+import { useEffect, useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      
-      <Navbar />
-      <HomePage />
-      <Footer />
+  const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
+  return (
+    <div className="container">
+      {loading ? (
+        <div className="loader-container">
+          <div className="spinner"></div>
+        </div>
+      ) : (
+        <div className="App">
+          <Navbar />
+          <HomePage />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
