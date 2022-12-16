@@ -49,6 +49,8 @@ function HomePage() {
         <Text className="nav-text">Offers</Text>
         <Text className="nav-text">Value Store</Text>
 
+        
+
       </Flex>
 
       </Box>
