@@ -14,8 +14,80 @@
      
 }
 
+.nav-flex{
+
+    gap:30px;
+    margin-left:27%;
+    
+    border: 1px soild lightgray;
+    padding: 10px 0px 8px 0px;
+    
+
+}
+
+.nav-box{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+.nav-text{
+    color: #30363C;
+    font-size: 15px;
+    font-family: "Inter",sans-serif;
+   
+
+}
+
+.img{
+    border-bottom: 1px solid gray;
+}
 
 
 .slide-container{
     margin-top: 20px;
+}
+
+.text{
+    width: 93px;
+    font-weight: bold;
+    color: #F47779;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 4px 0px 0px;
+}
+
+.boxes{
+    padding: 5px 10px 0px 5px;
+}
+
+.boxes:hover{
+    border: 1px solid rgb(173, 170, 170);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all ease-out;
+   
+}
+
+.offers:hover{
+    border: 1px solid teal;
+    transition:  ease-out;
+    transform: scale(1.00);
+    
+   
+
+}
+
+.number1, .number2{
+    color: teal;
+    background: rgb(178, 206, 206);
+    width: 32px;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+.sit{
+    width: 82%;
+   
 }
