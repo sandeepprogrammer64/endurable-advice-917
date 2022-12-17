@@ -54,6 +54,8 @@ function HomePage() {
       </Flex>
 
       </Box>
+
+      
     
       <Text fontSize="20px" color="bold" marginTop="30">
         What are You Looking For?
