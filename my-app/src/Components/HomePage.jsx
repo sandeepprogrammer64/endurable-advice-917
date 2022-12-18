@@ -37,26 +37,19 @@ const fadeImages = [
 function HomePage() {
   return (
     <div>
-      <Box className="nav-box" >
-
-      <Flex className="nav-flex"  >
-        <Text className="nav-text">Medicine</Text>
-        <Text className="nav-text">Lab Tests</Text>
-        <Text className="nav-text">Health Care</Text>
-        <Text className="nav-text">Surgeries</Text>
-        <Text className="nav-text">Health Blogs</Text>
-        <Text className="nav-text">PLUS</Text>
-        <Text className="nav-text">Offers</Text>
-        <Text className="nav-text">Value Store</Text>
-
-        
-
-      </Flex>
-
+      <Box className="nav-box">
+        <Flex className="nav-flex">
+          <Text className="nav-text">Medicine</Text>
+          <Text className="nav-text">Lab Tests</Text>
+          <Text className="nav-text">Health Care</Text>
+          <Text className="nav-text">Surgeries</Text>
+          <Text className="nav-text">Health Blogs</Text>
+          <Text className="nav-text">PLUS</Text>
+          <Text className="nav-text">Offers</Text>
+          <Text className="nav-text">Value Store</Text>
+        </Flex>
       </Box>
 
-      
-    
       <Text fontSize="20px" color="bold" marginTop="30">
         What are You Looking For?
       </Text>
@@ -359,19 +352,22 @@ function HomePage() {
 
           <Flex gap="6">
             <Text className="number2">2 </Text>
-            <Text >Add Delivery Address and place the order</Text>
+            <Text>Add Delivery Address and place the order</Text>
           </Flex>
-         
+
           <Flex gap="4" marginLeft="330" marginTop="-20">
             <Text className="number2">3</Text>
-            <Text >We will call you to confirm the medicines</Text>
+            <Text>We will call you to confirm the medicines</Text>
           </Flex>
-          
+
           <Flex gap="4" marginLeft="330" marginTop="10">
             <Text className="number2">4</Text>
-            <Text className="sit">Now sit back and Relax! Your medicines will be delivered at your door step</Text>
+            <Text className="sit">
+              Now sit back and Relax! Your medicines will be delivered at your
+              door step
+            </Text>
           </Flex>
-          
+
           {/* <Flex   gap="4" marginLeft="350" marginTop="-30">
             <Text  className="number2">3</Text>
             <Text >Add Delivery Address and place the order</Text>
