@@ -42,11 +42,9 @@ function Navbar() {
           Hello Log in
         </Button>
 
-        
-          <Button onClick={toggleColorMode} colorScheme="teal">
-            {colorMode === "light" ? "Dark Mode" : "Light Mode"}
-          </Button>
-      
+        <Button onClick={toggleColorMode} colorScheme="teal">
+          {colorMode === "light" ? "Dark Mode" : "Light Mode"}
+        </Button>
 
         <Drawer
           isOpen={isOpen}
@@ -75,8 +73,6 @@ function Navbar() {
         </Drawer>
       </ButtonGroup>
     </Box>
-
-    
   );
 }
 
