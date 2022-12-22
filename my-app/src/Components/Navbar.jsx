@@ -71,10 +71,7 @@ function Navbar() {
             </Button>
           </DrawerContent>
         </Drawer>
-
-        
       </ButtonGroup>
-      
     </Box>
   );
 }
