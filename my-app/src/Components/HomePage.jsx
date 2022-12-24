@@ -53,7 +53,9 @@ function HomePage() {
       
 
       <Text fontSize="20px" color="bold" marginTop="30">
+
         What are You Looking For?
+        
       </Text>
 
       <Input w="40%" size="lg" marginTop="20px" borderRadius="80px"></Input>
