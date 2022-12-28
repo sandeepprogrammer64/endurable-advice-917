@@ -60,7 +60,7 @@ function HomePage() {
         
       </Text>
 
-      
+
 
       <Input w="40%" size="lg" marginTop="20px" borderRadius="80px"></Input>
       <Button
@@ -120,6 +120,8 @@ function HomePage() {
             Health Blogs
           </Text>
         </Box>
+
+        
 
         <Box className="boxes" border="1px solid gray.200">
           <Image
