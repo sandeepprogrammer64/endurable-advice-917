@@ -60,6 +60,8 @@ function HomePage() {
         
       </Text>
 
+      
+
       <Input w="40%" size="lg" marginTop="20px" borderRadius="80px"></Input>
       <Button
         colorScheme="teal"
