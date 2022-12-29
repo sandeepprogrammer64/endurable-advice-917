@@ -50,17 +50,9 @@ function HomePage() {
         </Flex>
       </Box>
 
-      
-
-      
-
       <Text fontSize="20px" color="bold" marginTop="30">
-
         What are You Looking For?
-        
       </Text>
-
-
 
       <Input w="40%" size="lg" marginTop="20px" borderRadius="80px"></Input>
       <Button
@@ -118,14 +110,8 @@ function HomePage() {
           />
           <Text p="10px" fontWeight="bold">
             Health Blogs
-
-            
           </Text>
         </Box>
-
-        
-
-
 
         <Box className="boxes" border="1px solid gray.200">
           <Image
