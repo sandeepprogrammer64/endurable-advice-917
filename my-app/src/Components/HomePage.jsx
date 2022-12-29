@@ -123,6 +123,8 @@ function HomePage() {
 
         
 
+        
+
         <Box className="boxes" border="1px solid gray.200">
           <Image
             className="img"
