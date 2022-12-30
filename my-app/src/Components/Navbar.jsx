@@ -72,10 +72,7 @@ function Navbar() {
           </DrawerContent>
         </Drawer>
       </ButtonGroup>
-
-      
     </Box>
-
   );
 }
 
