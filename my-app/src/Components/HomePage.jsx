@@ -112,10 +112,12 @@ function HomePage() {
             Health Blogs
           </Text>
 
-          
+
 
 
         </Box>
+        
+
         
 
         <Box className="boxes" border="1px solid gray.200">
