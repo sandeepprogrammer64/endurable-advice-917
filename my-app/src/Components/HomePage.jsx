@@ -111,14 +111,7 @@ function HomePage() {
           <Text p="10px" fontWeight="bold">
             Health Blogs
           </Text>
-
-
-
-
         </Box>
-        
-
-        
 
         <Box className="boxes" border="1px solid gray.200">
           <Image
