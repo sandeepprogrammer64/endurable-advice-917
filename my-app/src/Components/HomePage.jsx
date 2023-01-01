@@ -111,6 +111,8 @@ function HomePage() {
           <Text p="10px" fontWeight="bold">
             Health Blogs
           </Text>
+
+          
         </Box>
         
 
