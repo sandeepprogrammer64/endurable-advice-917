@@ -148,6 +148,8 @@ function HomePage() {
           </Text>
         </Box>
 
+        
+
         <Box className="boxes" border="1px solid gray.600">
           <Image
             className="img"
