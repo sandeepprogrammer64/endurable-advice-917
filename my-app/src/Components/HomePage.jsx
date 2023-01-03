@@ -197,12 +197,13 @@ function HomePage() {
           h="185"
           src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/10dfe8c8aa7-HealthCheckups.jpg?dim=256x0"
         ></Image>
-        
+
         <Image
           w="180"
           h="185"
           src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/6c5479c6c0c-Vitamins.jpg?dim=256x0"
         ></Image>
+        
         <Image
           w="180"
           h="185"
