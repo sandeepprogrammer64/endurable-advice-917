@@ -2,6 +2,8 @@ import {Routes, Route} from "react-router-dom"
 import Navbar from "./Navbar";
 import Download from "./Download";
 
+
+
 function AllRoutes()
 {
     return (
@@ -10,7 +12,7 @@ function AllRoutes()
             <Route path="/download" element={<Download />}  />
         </Routes>
 
-        
+
     )
 }
 
