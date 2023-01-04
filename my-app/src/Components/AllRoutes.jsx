@@ -9,6 +9,8 @@ function AllRoutes()
             <Route path="/" element={<Navbar />}/>
             <Route path="/download" element={<Download />}  />
         </Routes>
+
+        
     )
 }
 
