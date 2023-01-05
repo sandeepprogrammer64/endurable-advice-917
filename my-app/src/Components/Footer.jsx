@@ -1,18 +1,5 @@
-function Footer()
-{
-
-
-    return (
-        <div>
-
-
-
-        </div>
-
-        
-
-
-    )
+function Footer() {
+  return <div></div>;
 }
 
 export default Footer;
