@@ -73,13 +73,7 @@ function Navbar() {
         </Drawer>
       </ButtonGroup>
     </Box>
-
-    
-    
   );
 }
 
 export default Navbar;
-
-
-
