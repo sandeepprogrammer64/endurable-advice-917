@@ -27,10 +27,12 @@ function App() {
           <HomePage />
           <Footer />
         </div>
+
+        
       )}
       
 
-      
+
     </div>
   );
 }
